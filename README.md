@@ -1,15 +1,16 @@
-# SustainabilityTypes
+# Interactive ggiraph Visualizations in R Shiny Modals  
 
 ![R](https://img.shields.io/badge/R-4.0%2B-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)   
 
-## Objective
+## Overview
 
-Demonstrate how to construct dynamic, interactive ggiraph visualizations inside R Shiny modal dialogs triggered by user click events.  
+This repository provides a clean, reproducible pattern for rendering dynamic, interactive ggiraph visualizations inside R Shiny modal dialogs (shiny::showModal()). It demonstrates how to handle click events on primary dashboard elements to trigger context-rich pop-up charts while maintaining seamless state synchronization.  
 
-## Highlights
+## Highlights  
+
 * Click-Triggered Modals: Display contextual pop-up dialogs on demand using shiny::showModal() in response to UI inputs or plot click events.
-* Interactive ggplot2 Visualizations: Upgrade static ggplot2 graphics into interactive charts with custom tooltips, hover highlights, and click callbacks using ggiraph.
+* Interactive ggplot2 Visualizations: Transform static ggplot2 graphics into interactive charts with custom tooltips, hover highlights, and click callbacks using ggiraph.
 * State Management: Seamlessly pass reactive values and selection state between the pop-up modal layer and the primary Shiny server context.
 
 Final graph can be checked at
