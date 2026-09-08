@@ -2,8 +2,7 @@
 
 ![R](https://img.shields.io/badge/R-4.0%2B-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
-
-================
+================  
 Özgür Tapan
 
 ## Objective
